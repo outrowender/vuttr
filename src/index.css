@@ -1,13 +1,16 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* fonts */
+@font-face {
+  font-family: "San Francisco Regular";
+  src: local("Rajdhani"), url(./fonts/SF/SF-regular.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "San Francisco Light";
+  src: local("Rajdhani"), url(./fonts/SF/SF-light.otf) format("opentype");
 }

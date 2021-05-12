@@ -1,0 +1,43 @@
+input[type="text"] {
+  font-family: "San Francisco Regular";
+  background-color: #f5f4f6;
+  border: 1px solid #ebeaed;
+  padding: 5px 8px;
+  border-radius: 5px;
+  outline: none !important;
+  color: #170c3a;
+}
+
+input[type="text"]::placeholder {
+  color: #b1adb9;
+}
+
+input[type="text"]:focus {
+  border-color: #dedce1;
+}
+
+.form-input{
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+}
+
+.form-input label{
+  text-align: left;
+  margin-bottom: 4px;
+  font-size: 14px;
+}
+
+.form-input p{
+  text-align: right;
+  margin-top: 4px;
+  font-size: 10px;
+}
+
+.form-input p.error{
+  color: #F95E5A;
+  text-align: right;
+  margin-top: 4px;
+  font-size: 10px;
+}

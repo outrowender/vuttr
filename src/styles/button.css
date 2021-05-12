@@ -1,0 +1,49 @@
+button {
+  font-family: "San Francisco Regular";
+  padding: 8px;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* button primary */
+
+button.primary {
+  background-color: #365df0;
+  color: white;
+}
+
+button.primary:hover {
+  background-color: #2f55cc;
+}
+
+button.primary:active {
+  background-color: #244aa8;
+}
+
+button.primary:disabled {
+  background-color: #b9c6fa;
+  color: #e1e7fd !important;
+  cursor: not-allowed;
+}
+
+/* button secondary */
+
+button.secondary {
+  background-color: #e1e7fd;
+  color: #365df0;
+}
+
+button.secondary:hover {
+  background-color: #cad6fc;
+}
+
+button.secondary:active {
+  background-color: #b9c6fa;
+}
+
+button.secondary:disabled {
+  background-color: #e1e7fd;
+  color: #b9c6fa;
+  cursor: not-allowed;
+}

@@ -1,0 +1,15 @@
+header {
+  align-items: flex-start;
+}
+
+input[type="text"] {
+  width: 200px;
+}
+
+section {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}

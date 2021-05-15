@@ -1,3 +1,4 @@
+import Card from "../../components/Card/Card";
 import { Tool } from "../../models/Tool";
 import "./HomePage.css";
 
@@ -17,7 +18,9 @@ function HomePage() {
         </div>
         <button className="secondary">Add new</button>
       </section>
-      {list.map((item, i)=><p key={i}>{item.toString()}</p>)}
+      {list.map((item, i) => (
+        <Card key={i} title={item.title} content={item.description} tags={item.tags} />
+      ))}
     </div>
   );
 }

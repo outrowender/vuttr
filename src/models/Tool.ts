@@ -16,7 +16,6 @@ export class Tool {
     }
 
     static create(id: number, title: string, link: string = '', description: string = '', tags: string[] = []) {
-        console.log('creating...')
         return new Tool(id, title, link, description, tags)
     }
 

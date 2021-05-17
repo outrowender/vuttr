@@ -11,9 +11,9 @@ const Card = (props: { title: string; content?: string; tags?: string[] }) => {
       </div>
       <div className="card-footer">
         {props.tags?.map((item, i) => (
-          <button className="secondary" disabled key={i}>
-            {item}
-          </button>
+          <span className="span-tag" key={i}>
+            #{item}
+          </span>
         ))}
       </div>
     </div>

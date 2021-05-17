@@ -16,3 +16,8 @@
 .card-body {
   font-family: "San Francisco Light";
 }
+
+.span-tag{
+  font-family: "San Francisco Regular";
+  margin-right: 10px;
+}

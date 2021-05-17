@@ -1,8 +1,9 @@
+import "./HomePage.css";
 import { useState } from "react";
+import { Tool } from "../../models/Tool";
 import Card from "../../components/Card/Card";
 import Modal from "../../components/Modal/Modal";
-import { Tool } from "../../models/Tool";
-import "./HomePage.css";
+import InsertToolForm from "./Components/InsertToolForm/InsertToolForm";
 
 const HomePage = () => {
   const list = Tool.fake(5);
@@ -33,7 +34,9 @@ const HomePage = () => {
           />
         ))}
       </div>
-      <Modal show={modalOpen} onClose={() => setModalOpen(false)} />
+      <Modal show={modalOpen} onClose={() => setModalOpen(false)}>
+        <InsertToolForm />
+      </Modal>
     </>
   );
 };

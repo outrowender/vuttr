@@ -7,10 +7,10 @@ body {
 /* fonts */
 @font-face {
   font-family: "San Francisco Regular";
-  src: local("Rajdhani"), url(./fonts/SF/SF-regular.otf) format("opentype");
+  src: local("Rajdhani"), url(./assets/fonts/SF/SF-regular.otf) format("opentype");
 }
 
 @font-face {
   font-family: "San Francisco Light";
-  src: local("Rajdhani"), url(./fonts/SF/SF-light.otf) format("opentype");
+  src: local("Rajdhani"), url(./assets/fonts/SF/SF-light.otf) format("opentype");
 }

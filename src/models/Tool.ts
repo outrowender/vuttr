@@ -30,6 +30,6 @@ export class Tool {
     }
 
     public toString(): string {
-        return `id: ${this.id}, title: ${this.title}, link: ${this.link}, description: ${this.description}, tags: ${this.tags.length} items`;
+        return `id: ${this.id}, title: ${this.title}, link: ${this.link||'?'}, description: ${this.description||'?'}, tags: ${this.tags.length} items`;
     }
 }
